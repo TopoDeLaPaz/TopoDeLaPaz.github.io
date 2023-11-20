@@ -33,7 +33,7 @@ function guardarMarcador(marcador) {
             fetch('https://api.github.com/repos/TopoDeLaPaz/TopoDeLaPaz.github.io/contents/marcadores.json', {
                 method: 'PUT',
                 headers: {
-                    'Authorization': 'Bearer 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', // Necesitarás un token de acceso para autenticar la solicitud
+                    'Authorization': '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', // Necesitarás un token de acceso para autenticar la solicitud
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
