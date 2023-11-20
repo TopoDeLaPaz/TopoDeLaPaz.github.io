@@ -20,34 +20,50 @@ function agregarMarcador() {
 }
 
 function guardarMarcador(marcador) {
-    // Obtiene los marcadores existentes del almacenamiento local
-    var marcadoresGuardados = JSON.parse(localStorage.getItem('marcadores')) || [];
+    // Obtener los marcadores existentes del archivo en GitHub
+    // Puedes usar una biblioteca para realizar solicitudes HTTP, como axios o fetch
+    // Aquí se asume el uso de fetch
+    fetch('https://raw.githubusercontent.com/tu-usuario/tu-repositorio/main/marcadores.json')
+        .then(response => response.json())
+        .then(data => {
+            // Agregar el nuevo marcador
+            data.push(marcador);
 
-    // Agrega el nuevo marcador
-    marcadoresGuardados.push(marcador);
-
-    // Guarda la lista actualizada en el almacenamiento local
-    localStorage.setItem('marcadores', JSON.stringify(marcadoresGuardados));
-
-    // Agrega el marcador al mapa
-    var marker = L.marker([marcador.latitud, marcador.longitud]).addTo(map);
-    marker.bindPopup(`<b>${marcador.nombre}</b><br>Fecha: ${marcador.fecha}<br>Altura: ${marcador.altura} metros`);
+            // Guardar la lista actualizada en el archivo en GitHub
+            fetch('https://api.github.com/repos/tu-usuario/tu-repositorio/contents/marcadores.json', {
+                method: 'PUT',
+                headers: {
+                    'Authorization': 'Bearer tu-token-de-autenticacion', // Necesitarás un token de acceso para autenticar la solicitud
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    message: 'Actualizar marcadores',
+                    content: btoa(JSON.stringify(data)),
+                    sha: 'sha-del-archivo' // Puedes obtener esto haciendo una solicitud GET al mismo archivo
+                })
+            });
+        })
+        .catch(error => console.error('Error al guardar marcador:', error));
 }
 
 function cargarMarcadores() {
-    // Obtiene los marcadores del almacenamiento local
-    var marcadoresGuardados = JSON.parse(localStorage.getItem('marcadores')) || [];
-
-    // Agrega los marcadores al mapa
-    for (var i = 0; i < marcadoresGuardados.length; i++) {
-        var marcador = marcadoresGuardados[i];
-        var marker = L.marker([marcador.latitud, marcador.longitud]).addTo(map);
-        marker.bindPopup(`<b>${marcador.nombre}</b><br>Fecha: ${marcador.fecha}<br>Altura: ${marcador.altura} metros`);
-    }
+    // Obtener los marcadores del archivo en GitHub
+    fetch('https://raw.githubusercontent.com/tu-usuario/tu-repositorio/main/marcadores.json')
+        .then(response => response.json())
+        .then(data => {
+            // Agregar los marcadores al mapa
+            for (var i = 0; i < data.length; i++) {
+                var marcador = data[i];
+                var marker = L.marker([marcador.latitud, marcador.longitud]).addTo(map);
+                marker.bindPopup(`<b>${marcador.nombre}</b><br>Fecha: ${marcador.fecha}<br>Altura: ${marcador.altura} metros`);
+            }
+        })
+        .catch(error => console.error('Error al cargar marcadores:', error));
 }
 
-// Carga los marcadores al iniciar la aplicación
+// Cargar los marcadores al iniciar la aplicación
 cargarMarcadores();
+
 
 // Función para cargar los marcadores desde un archivo CSV
 function cargarDesdeCSV(url) {
