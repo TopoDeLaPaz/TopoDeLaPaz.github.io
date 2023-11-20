@@ -23,17 +23,17 @@ function guardarMarcador(marcador) {
     // Obtener los marcadores existentes del archivo en GitHub
     // Puedes usar una biblioteca para realizar solicitudes HTTP, como axios o fetch
     // Aquí se asume el uso de fetch
-    fetch('https://raw.githubusercontent.com/tu-usuario/tu-repositorio/main/marcadores.json')
+    fetch('https://raw.githubusercontent.com/TopoDeLaPaz/TopoDeLaPaz.github.io/main/marcadores.json')
         .then(response => response.json())
         .then(data => {
             // Agregar el nuevo marcador
             data.push(marcador);
 
             // Guardar la lista actualizada en el archivo en GitHub
-            fetch('https://api.github.com/repos/tu-usuario/tu-repositorio/contents/marcadores.json', {
+            fetch('https://api.github.com/repos/TopoDeLaPaz/TopoDeLaPaz.github.io/contents/marcadores.json', {
                 method: 'PUT',
                 headers: {
-                    'Authorization': 'Bearer tu-token-de-autenticacion', // Necesitarás un token de acceso para autenticar la solicitud
+                    'Authorization': 'Bearer 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', // Necesitarás un token de acceso para autenticar la solicitud
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
@@ -48,7 +48,7 @@ function guardarMarcador(marcador) {
 
 function cargarMarcadores() {
     // Obtener los marcadores del archivo en GitHub
-    fetch('https://raw.githubusercontent.com/tu-usuario/tu-repositorio/main/marcadores.json')
+    fetch('https://raw.githubusercontent.com/TopoDeLaPaz/TopoDeLaPaz.github.io/main/marcadores.json')
         .then(response => response.json())
         .then(data => {
             // Agregar los marcadores al mapa
