@@ -1,0 +1,59 @@
+ID,Comuna,Descripción,Dirección,Fecha evento (año),Hora evento (hh:mm:ss),Altura de Agua (cm),Latitud (decimal),Longitud (decimal),Fecha lev. (dd/MM/YYYY)
+1,Los Ángeles,Abarrotes,Colo Colo 768,2006,tarde,16,-37.469083,-72.356668,16/11/2023
+2,Los Ángeles,Importadora Premium,Colo Colo 538,2006,mañana,58,-37.469148,-72.353037,16/11/2023
+3,Los Ángeles,Ciber y Recargas,Colo Colo 512,2006,dia,64,-37.469142,-72.352504,16/11/2023
+4,Los Ángeles,Óptica BioBio,Colo Colo 460,2006,dia,63,-37.469176,-72.351503,16/11/2023
+5,Los Ángeles,Galería Centro España,Colon 482,2006,dia,100,-37.467932,-72.350729,16/11/2023
+6,Los Ángeles,Salcobrand,Colon 412,2006,dia,100,-37.46921,-72.350934,16/11/2023
+7,Los Ángeles,Lomito sureño,Valdivia 501,2006,dia,60,-37.4674353,-72.352056,20/11/23
+8,Los Ángeles,Servicio tecnico impresoras y respuestos de tintas,Av. Tucapel 336,2006,madrugada ,30,-37.466365,-72.352047,20/11/23
+9,Los Ángeles,Servicio tecnico impresoras y respuestos de tintas,Av. Tucapel 337,2018,,0,-37.466365,-72.352047,21/11/23
+10,Los Ángeles,Optica,Colon 518,2006,mañana,40,-37.4672403,-72.355957,20/11/23
+11,Los Ángeles,Servicio tecnico Ruiz EIRL,Valdivia 500 ,2006,medio dia,56,-37.4675447,-72.353615,20/11/23
+12,Los Ángeles,Tottus (ex sodimac),Mendoza 501,2006,medio dia,42,-37.4674889,-72.353615,20/11/23
+13,Los Ángeles,Tottus (ex sodimac), Av. Tucapel 400,2006,medio dia,22,-37.4663875,-72.35355,20/11/23
+14,Los Ángeles,Carnicería (Centro de Carnes),Villagran 501,2023,madrugada ,50,-37.467443,-72.348098,20/11/23
+15,Los Ángeles,Carnicería (Centro de Carnes),Villagran 501,2006,día,114,-37.467443,-72.348098,20/11/23
+16,Los Ángeles,Bar Al Paso Restaurant,Villagran 524,2023,,38,-37.46729,-72.348224,20/11/23
+17,Los Ángeles,Bar Al Paso Restaurant,Villagran 524,2016,,99,-37.46729,-72.348224,20/11/23
+18,Los Ángeles,Nuevo Centro de Carnes,Vilagran 598,2006,noche,85,-37.466412,-72.34836,20/11/23
+19,Los Ángeles,Nuevo Centro de Carnes,Vilagran 598,2023,,0,-37.466412,-72.34836,20/11/23
+20,Los Ángeles,La Brocha Gorda,Villagran 597,2006,15:00:00,49,-37.46621,-72.34807,20/11/23
+21,Los Ángeles,La Brocha Gorda,Villagran 597,2023,,0,-37.46621,-72.34807,20/11/23
+22,Los Ángeles,La Brocha Gorda,Villagran 597,2018,,0,-37.46621,-72.34807,20/11/23
+23,Los Ángeles,La Brocha Gorda,Villagran 597,2016,,0,-37.46621,-72.34807,20/11/23
+24,Los Ángeles,Supermercado Tamarugal,Villagran 651,2006,,0,-37.465512,-72.347945,20/11/23
+25,Los Ángeles,Supermercado Tamarugal,Villagran 651,2023,,0,-37.465512,-72.347945,20/11/23
+26,Los Ángeles,El Mayorista 1,Tucapel 194,2006,,80,-37.466388,-72.349235,20/11/23
+27,Los Ángeles,El Mayorista 1,Tucapel 194,2023,,2,-37.466388,-72.349235,20/11/23
+28,Los Ángeles,L'Olleta,Tucapel 216,2023,,0,-37.466271,-72.349779,20/11/23
+29,Los Ángeles,L'Olleta,Tucapel 216,2016,,0,-37.466271,-72.349779,20/11/23
+30,Los Ángeles,L'Olleta,Tucapel 216,2018,,0,-37.466271,-72.349779,20/11/23
+31,Los Ángeles,Centro de Llamada Andreita,Tucapel 185,2023,,0,-37.46621,-72.349258,20/11/23
+32,Los Ángeles,Top Musical Local 17,Tucapel 297,2006,,0,-37.466198,-72.350166,20/11/23
+33,Los Ángeles,Top Musical Local 17,Tucapel 297,2016,,0,-37.466198,-72.350166,20/11/23
+34,Los Ángeles,Top Musical Local 17,Tucapel 297,2018,,0,-37.466198,-72.350166,20/11/23
+35,Los Ángeles,Top Musical Local 17,Tucapel 297,2023,,0,-37.466198,-72.350166,20/11/23
+36,Los Ángeles,Recarga Electrónica,Colon 599,2006,,102,-37.466365,-72.350603,20/11/23
+37,Los Ángeles,Recarga Electrónica,Colon 599,2023,,0,-37.466365,-72.350603,20/11/23
+38,Los Ángeles,Recarga Electrónica,Colon 599,2018,,0,-37.466365,-72.350603,20/11/23
+39,Los Ángeles,Recarga Electrónica,Colon 599,2016,,0,-37.466365,-72.350603,20/11/23
+40,Los Ángeles,Hush Puppies,Colon 515,2006,,100,-37.467317,-72.350743,20/11/23
+41,Los Ángeles,Hush Puppies,Colon 515,2016,,0,-37.467317,-72.350743,20/11/23
+42,Los Ángeles,Hush Puppies,Colon 515,2015,,0,-37.467317,-72.350743,20/11/23
+43,Los Ángeles,Hush Puppies,Colon 515,2023,,0,-37.467317,-72.350743,20/11/23
+44,Los Ángeles,Hush Puppies,Colon 515,2018,,0,-37.467317,-72.350743,20/11/23
+45,Los Ángeles,La Covadonga,Almagro 500,2006,,100,-37.467485,-72.349628,20/11/23
+46,Los Ángeles,La Covadonga,Almagro 500,2018,,20,-37.467485,-72.349628,20/11/23
+47,Los Ángeles,El Copihue,Rengo 145,2006,,130,-37.467551,-72.348806,20/11/23
+48,Los Ángeles,El Copihue,Rengo 145,2018,,20,-37.467551,-72.348806,20/11/23
+49,Los Ángeles,El Copihue,Rengo 145,2023,,0,-37.467551,-72.348806,20/11/23
+50,Los Ángeles,LA Sports,Colo-Colo 215,2006,Día,0,-37.4691587,-72.3485252,20/11/2023
+51,Los Ángeles,El padrino,Colo-Colo 240-A,2006,Día,0,-37.4693482,-72.3487679,20/11/2023
+52,Los Ángeles,NORFI,Colo-Colo 276,2006,Día,0,-37.4693146,-72.3494705,20/11/2023
+53,Los Ángeles,Tienda de ropa Americana,Almagro 437,2006,Día,0,-37.46886,-72.34923,20/11/2023
+54,Los Ángeles,Ferreteria El Martillo,Almagro 449,2006,Mañana,115,-37.4685599,-72.3492,20/11/2023
+55,Los Ángeles,Galeria Pumahue,Almagro 489,2006,Día,126,-37.4679226,-72.3492883,20/11/2023
+56,Los Ángeles,Pets Rengo,Rengo 110,2006,Día,151,-37.4677032,-72.348509,20/11/2023
+57,Los Ángeles,Ferreteria Villagran,Villagran 499,2006,Día,90,-37.4679213,-72.3481213,20/11/2023
+58,Los Ángeles,Importadora Style Americana,Villagran 425,2006,Día,0,-37.4690396,-72.3481179,20/11/2023
