@@ -150,5 +150,24 @@
         
         
         </script>
+
+        <script src="leaflet.easybutton.js"></script>
+        <script>
+        // ... (código existente)
+        
+        // Crear un botón fácil de Leaflet
+        var easyButton = L.easyButton('fa-globe', function(){
+            // Lógica que deseas ejecutar al hacer clic en el botón
+            alert('¡Botón de Leaflet presionado!');
+        }, 'Botón Leaflet').addTo(map);
+        
+        // ... (código existente)
+        </script>
+
+        
+
     </body>
 </html>
+
+
+
